@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+/* header */
+
+header{
+    display: flex;
+    background-image: url("../img/fundo-topo.jpg");
+    padding: 10px 0px;
+}
+
+header h1{
+    margin: 0 auto;
+    height: 84px;
+}
+
+/* menu */
+
+nav{
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #BFFF9C;
+    border-radius: 0px 0px 25px 25px;
+    border-right: 0.5px solid #000;
+    border-bottom: 0.5px solid #000;
+    border-left: 0.5px solid #000;
+}
+
+nav li{
+    display: inline;
+    background-image: url(../img/patinha-preta.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-right: 27px;
+    margin-right: 10px;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #529d27;
+}
+
+form{
+    width: 380px;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px
+}
+
+iframe{
+    width: 100%;
+}
+
+/* especifico id */
+
+#itemContato{
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#produto .flexContainer. #contato{
+    margin-top: 43px;
+}
+
+/* grupos de elementos estilizados (.classe) */
+
+.fundoVerde{
+    background-color: #BFFF9C;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flexContainer .col{
+    width: 430px;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textoCentralizado{
+    text-align: center;
+}
+
+.produto{
+    width: 235px;
+}
+
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.produto figure img{
+    vertical-align: middle;
+    
+}
+
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
